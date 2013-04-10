@@ -22,4 +22,3 @@ function gsb_feature_links_fpp_entity_info_alter(&$entity_info) {
     ),
   );
 }
-
