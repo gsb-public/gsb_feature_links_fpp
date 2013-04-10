@@ -103,14 +103,14 @@ function gsb_feature_links_fpp_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-links-field_tile'.
-  $fields['fieldable_panels_pane-links-field_tile'] = array(
+  // Exported field: 'fieldable_panels_pane-links-field_title'.
+  $fields['fieldable_panels_pane-links-field_title'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_tile',
+      'field_name' => 'field_title',
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -156,7 +156,7 @@ function gsb_feature_links_fpp_field_default_fields() {
       ),
       'ds_extras_field_template' => '',
       'entity_type' => 'fieldable_panels_pane',
-      'field_name' => 'field_tile',
+      'field_name' => 'field_title',
       'label' => 'Title',
       'required' => 1,
       'settings' => array(

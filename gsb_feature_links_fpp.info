@@ -10,5 +10,5 @@ dependencies[] = text
 features[defaultconfig][] = strongarm:field_bundle_settings_fieldable_panels_pane__links
 features[features_api][] = api:1
 features[field][] = fieldable_panels_pane-links-field_link_unlimited
-features[field][] = fieldable_panels_pane-links-field_tile
+features[field][] = fieldable_panels_pane-links-field_title
 features_exclude[dependencies][defaultconfig] = defaultconfig
