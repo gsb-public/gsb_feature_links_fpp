@@ -24,3 +24,11 @@ function gsb_feature_links_fpp_entity_info_alter(&$entity_info) {
     ),
   );
 }
+
+function gsb_feature_links_fpp_preprocess_fieldable_panels_pane (&$variables) {
+  if ($variables['elements']['#bundle'] == 'links') {
+    $wrapper = entity_metadata_wrapper($variables['elements']['#entity_type'], $variables['elements']['#element']);
+    // Determine the Links style and set corresponding style class for pane.
+    $variables['classes_array'][] = $wrapper->field_link_style->value();
+  }
+}
