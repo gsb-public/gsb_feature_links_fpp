@@ -122,7 +122,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'bundle' => 'links',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Please limit title to 10 words.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -170,6 +170,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Links');
+  t('Please limit title to 10 words.');
   t('Style');
   t('Title');
 
