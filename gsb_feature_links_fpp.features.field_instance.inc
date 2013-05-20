@@ -38,7 +38,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_link_style',
     'label' => 'Style',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -144,7 +144,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_title',
     'label' => 'Title',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'linkit' => array(
         'enable' => 0,
