@@ -49,7 +49,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'options_select',
-      'weight' => 2,
+      'weight' => -8,
     ),
     'workbench_access_field' => 0,
   );
@@ -112,7 +112,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'maxlength_js_label' => '',
       ),
       'type' => 'link_field',
-      'weight' => 3,
+      'weight' => -7,
     ),
     'workbench_access_field' => 0,
   );
@@ -162,7 +162,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 1,
+      'weight' => -9,
     ),
     'workbench_access_field' => 0,
   );
