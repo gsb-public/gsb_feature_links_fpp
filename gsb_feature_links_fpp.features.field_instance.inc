@@ -15,7 +15,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'bundle' => 'links',
     'default_value' => array(
       0 => array(
-        'value' => 'red-bar',
+        'value' => 'black-bar',
       ),
     ),
     'deleted' => 0,
