@@ -25,7 +25,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'ical' => array(
         'label' => 'above',
@@ -40,6 +40,8 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'label' => 'Style',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -66,19 +68,9 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'link_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'ical' => array(
         'label' => 'above',
@@ -93,6 +85,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'label' => 'Links',
     'required' => 1,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -100,6 +93,8 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'target' => 'user',
         'title' => '',
       ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'display' => array(
         'url_cutoff' => 80,
       ),
@@ -109,6 +104,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'insert_plugin' => '',
       ),
       'title' => 'required',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -139,16 +135,6 @@ function gsb_feature_links_fpp_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
         ),
         'type' => 'text_default',
         'weight' => 0,
@@ -166,6 +152,8 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',

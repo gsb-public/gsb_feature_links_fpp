@@ -28,6 +28,15 @@ function gsb_feature_links_fpp_strongarm() {
       'megamenu' => array(
         'custom_settings' => FALSE,
       ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'alumni_featured_content' => array(
+        'custom_settings' => FALSE,
+      ),
+      'people_fpp' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -38,7 +47,7 @@ function gsb_feature_links_fpp_strongarm() {
       'display' => array(
         'title' => array(
           'default' => array(
-            'weight' => '2',
+            'weight' => '4',
             'visible' => FALSE,
           ),
         ),
