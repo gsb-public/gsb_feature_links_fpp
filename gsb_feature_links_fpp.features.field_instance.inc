@@ -10,6 +10,56 @@
 function gsb_feature_links_fpp_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance:
+  // 'fieldable_panels_pane-links-field_link_display_show_more'
+  $field_instances['fieldable_panels_pane-links-field_link_display_show_more'] = array(
+    'bundle' => 'links',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => 'If you list six or more links and check this box, the first four links will display with "Show More" functionality.
+',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'fieldable_panels_pane',
+    'field_name' => 'field_link_display_show_more',
+    'label' => 'Display "Show More"',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
+      'weight' => -6,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'fieldable_panels_pane-links-field_link_style'
   $field_instances['fieldable_panels_pane-links-field_link_style'] = array(
     'bundle' => 'links',
@@ -177,6 +227,9 @@ function gsb_feature_links_fpp_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Display "Show More"');
+  t('If you list six or more links and check this box, the first four links will display with "Show More" functionality.
+');
   t('Links');
   t('Please limit title to 10 words.');
   t('Style');
