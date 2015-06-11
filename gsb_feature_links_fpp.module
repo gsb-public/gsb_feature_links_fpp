@@ -36,16 +36,16 @@ function gsb_feature_links_fpp_preprocess_fieldable_panels_pane (&$variables) {
 
 /**
  * Implements hook_ds_pre_render_alter()
- * 
- * For a links fpp - 
- * Remove the show-more-less classes for the fielditems ds group, if field_link_display_show_more 
- * is not set to true. 
+ *
+ * For a links fpp -
+ * Remove the show-more-less classes for the fielditems ds group, if field_link_display_show_more
+ * is not set to true.
  */
 function gsb_feature_links_fpp_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
   if (!empty($layout_render_array['ds_content'][0]['#bundle']) && $layout_render_array['ds_content'][0]['#bundle'] == 'links') {
     if ($layout_render_array['ds_content'][1]['#id'] == 'fieldable_panels_pane_links_full_group_show_more') {
       $language = $context['entity']->language;
-      if ($context['entity']->field_link_display_show_more[$language][0]['value'] != 1) {
+      if (!empty($context['entity']->field_link_display_show_more) && $context['entity']->field_link_display_show_more[$language][0]['value'] != 1) {
         $layout_render_array['ds_content'][1]['#prefix'] = str_replace('show-more-less show-more-less-num-4 show-more-less-min-6 ', '', $layout_render_array['ds_content'][1]['#prefix']);
       }
     }
