@@ -29,7 +29,7 @@ function gsb_feature_links_fpp_field_group_info() {
     'format_settings' => array(
       'label' => '',
       'instance_settings' => array(
-        'classes' => 'show-more-less show-more-less-num-4 show-more-less-min-6',
+        'classes' => 'show-more-less show-more-less-num-4 show-more-less-min-6 field-group-div',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
