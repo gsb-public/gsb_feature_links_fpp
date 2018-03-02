@@ -11,7 +11,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-links-field_link_display_show_more'
+  // 'fieldable_panels_pane-links-field_link_display_show_more'.
   $field_instances['fieldable_panels_pane-links-field_link_display_show_more'] = array(
     'bundle' => 'links',
     'custom_add_another' => '',
@@ -60,7 +60,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-links-field_link_style'
+  // Exported field_instance: 'fieldable_panels_pane-links-field_link_style'.
   $field_instances['fieldable_panels_pane-links-field_link_style'] = array(
     'bundle' => 'links',
     'default_value' => array(
@@ -106,7 +106,8 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-links-field_link_unlimited'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-links-field_link_unlimited'.
   $field_instances['fieldable_panels_pane-links-field_link_unlimited'] = array(
     'bundle' => 'links',
     'default_value' => NULL,
@@ -173,7 +174,7 @@ function gsb_feature_links_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-links-field_title'
+  // Exported field_instance: 'fieldable_panels_pane-links-field_title'.
   $field_instances['fieldable_panels_pane-links-field_title'] = array(
     'bundle' => 'links',
     'default_value' => NULL,
